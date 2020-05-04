@@ -6,8 +6,7 @@
 
     <persistence-unit name="br.com.fredericci.pu">
         <description>Hibernate EntityManager Demo</description>
-        <class>br.com.fredericci.playground.Pedido</class>
-        <class>br.com.fredericci.playground.Produto</class>
+        <class>br.com.fredericci.playground.Person</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
